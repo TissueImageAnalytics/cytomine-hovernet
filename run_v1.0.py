@@ -136,7 +136,6 @@ def main(argv):
                             # Cytomine cartesian coordinate system, (0,0) is bottom left corner
                             p = Point(minx + contours[i][0], miny - contours[i][1])
                             points.append(p)
-# need to add way of including nuclei class
                         annotation = Polygon(points)
                         # Append to Annotation collection
                         cytomine_annotations.append(
@@ -144,7 +143,7 @@ def main(argv):
                                 location=annotation.wkt,
                                 id_image=id_image,  # conn.parameters.cytomine_id_image,
                                 id_project=conn.parameters.cytomine_id_project,
-                                id_terms=[cell_id_dict[nuc_type]] #[int(nuc_type)] #
+                                id_terms=[cell_id_dict[nuc_type]]
                             )
                         )
                         print(".", end='', flush=True)

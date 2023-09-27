@@ -1,6 +1,6 @@
-# S_CellSegment_HoVerNet_ROI
+# S_CellSegmentClassify_HoVerNet_ROI
 
-Cytomine (https://cytomine.org) app developed by the TIA Centre team (https://warwick.ac.uk/fac/cross_fac/tia/) for Cell/Nuclei detection in region of interests (ROIs),
+Cytomine (https://cytomine.org) app developed by the TIA Centre team (https://warwick.ac.uk/fac/cross_fac/tia/) for Cell/Nuclei instance segmentation and classification in region of interests (ROIs),
 encapsulating the HoVer-Net code as part of TIAToolbox (https://github.com/TissueImageAnalytics/tiatoolbox) originally developed by Simon Graham et al. as published in Hover-Net: Simultaneous segmentation and classification of nuclei in multi-tissue histology images. Medical Image Analysis, 58, 2019.
 
 This implementation follows Cytomine (=v3.0) external app conventions based on container technology. 
